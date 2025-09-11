@@ -156,7 +156,7 @@ th,td{
 }
 
 .twocolumns{display: flex; 
-  width: 50%; 
+  width: 900px;
   margin-left: 25%; 
   margin-right: 50%; 
   column-gap: 2rem;
@@ -213,7 +213,7 @@ th,td{
 }
 
 .mainbox {
-  width: 60%;
+  width: 900px;
   margin-left: 20%; 
   margin-right: 20%; 
   column-gap: 2rem;
@@ -375,7 +375,7 @@ overflow: auto}
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .twocolumns{
     display: flex; 
     width: 80%; 
@@ -396,6 +396,13 @@ overflow: auto}
   .title1, .title2, .year, .subtitle1{
     font-size:75%;
   }
+
+    .mainbox {
+    width: 90%;
+    
+    margin-left: 2%; 
+    margin-right: 2%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -415,10 +422,8 @@ overflow: auto}
   .title1, .title2, .year, .subtitle1{
     font-size:75%;
   }
-}
 
-@media screen and (max-width: 600px) {
-  td{display:block;}
+
 }
 
 #more, #more2, #moremeasure, #morepredict, #moreuser, #morecompr {display: none;}
